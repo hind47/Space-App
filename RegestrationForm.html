@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="css/login.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Changa+One|Montserrat:100,100i,200,200i,300,300i,400,400i,500,600,700,800" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <header class="header bg">
+        <div class="container text-white">
+            <div class="row">
+                <!-- <div class="col-sm-2 col-0 align-self-center box-1">
+                </div>
+                <div class="col-sm-10 col-12 align-self-center text-right">
+                    <div class="social-icons">
+                        <ul>
+                            <li>email: info@info.com</li>
+                            <li>Call Us Now : 123456789</li>
+                        </ul>
+                    </div>
+                </div> -->
+            </div>
+            <!--/row-->
+        </div>
+        <!--container-->
+    </header>
+    <span class="position-absolute trigger"><!-- hidden trigger to apply 'stuck' styles --></span>
+    <!--Navbar blue-->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top teal" id="myHeader" style="padding-top: 23px;">
+        <div class="container">
+        
+        <a class="navbar-brand" href="index.html"><img style="filter: invert(39%) sepia(13%) saturate(3277%) hue-rotate(0) brightness(295%) contrast(23%);" src="images/logo.png" alt="logo" height="100px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <span class="hidden" href="#">/</span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="RegestrationForm.html">Sign In</a>
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+        <!--/.container end-->
+    </nav>
+<div class="login-page">
+    <div class="form">
+        <form class="register-form">
+            <h3 class="text-white">Register</h3>
+            <span>
+                <div class="row" style="display: flex; justify-content: space-around;">
+                    <div>
+                        <button class="userSelect">User</button> 
+                    </div>
+                    <div>
+                        <button class="userSelect">Writer</button>
+                    </div>
+                </div>
+            </span>
+            <br>
+            <input type="text" placeholder="Name" />
+            <input class="hide" type="number" placeholder="Age" />
+            <input class="hide" type="text" placeholder="Qualification" />
+            <input class="hide" type="text" placeholder="ُExperience" />
+            <input class="hide" type="text" placeholder="Identification Number" />
+            <input class="hide" type="file" placeholder="File" />
+            <input type="password" placeholder="password" />
+            <button> create</button>
+            <p class="message">Already registered? <a href="#">Sign In</a></p>
+        </form>
+        <form class="login-form">
+            <h3 class="text-white">Sign In</h3>
+            <br>
+            <input type="text" placeholder="Username" />
+            <input type="password" placeholder="password" />
+            <button>login</button>
+            <p class="message">Not registered? <a href="#">Create an account</a></p>
+        </form>
+    </div>
+
+    <script src="js/login.js"></script>
+</div>
+</body>
+</html>
